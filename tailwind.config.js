@@ -10,13 +10,6 @@ const sizes = {
   desktop: "1200px",
 };
 
-export const Device = {
-  mobile: `(min-width: ${sizes.mobile})`,
-  tablet: `(min-width: ${sizes.tablet})`,
-  laptop: `(min-width: ${sizes.laptop})`,
-  desktop: `(min-width: ${sizes.desktop})`,
-};
-
 const withOpacityValue = (variable) => {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -31,10 +24,10 @@ export default {
   theme: {
     extend: {
       screens: {
-        sm: Device.mobile, // mobile
-        md: Device.tablet, // tablet
-        lg: Device.laptop, // laptop
-        xl: Device.desktop, // desktop
+        sm: sizes.mobile, // mobile
+        md: sizes.tablet, // tablet
+        lg: sizes.laptop, // laptop
+        xl: sizes.desktop, // desktop
       },
 
       textColor: {
@@ -48,6 +41,7 @@ export default {
       backgroundColor: {
         skin: {
           fill: withOpacityValue("--color-fill"),
+          "fill-total": withOpacityValue("--color-fill-total"), // !
           "button-accent": withOpacityValue(`--color-button-accent`),
           "button-accent-hover": withOpacityValue(
             `--color-button-accent-hover`,

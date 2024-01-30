@@ -17,11 +17,17 @@
   }
 
   :root {
-    --color-text-base: 255, 255, 255;
+    /* "#202020" */
+    --color-text-base: 32, 32, 32;
+
     --color-text-muted: 199, 210, 254;
     --color-text-inverted: 79, 70, 229;
+
     --color-fill: 67, 56, 202;
-    --color-button-accent: 255, 255, 255;
+
+    /* "#EDF3FB" */
+    --color-fill-total: 237, 243, 251, --color-button-accent: 255, 255, 255;
+
     --color-button-accent-hover: 238, 242, 255;
     --color-button-muted: 99, 102, 241;
   }
@@ -37,12 +43,62 @@
   }
 
   .theme-dark {
-    --color-text-base: 17, 24, 2;
+    /* "#fff" */
+    --color-text-base: 255, 255, 255;
+
     --color-text-muted: 47, 67, 6;
     --color-text-inverted: 235, 250, 204;
     --color-fill: 179, 255, 23;
+
+    /* #1c1c1e */
+    --color-fill-total: 28, 28, 30;
+
     --color-button-accent: 36, 52, 3;
     --color-button-accent-hover: 55, 79, 5;
     --color-button-muted: 212, 255, 122;
   }
 }
+
+/* some garbage
+
+:root {
+  --rgbafondoanimado: rgba(102, 102, 102, 0.2);
+  --body: #fff;
+  --text: #202020;
+  --bodyRgba: 255, 255, 255;
+  --textRgba: 32,32,32;
+  --carouselColor: #9955ff;
+  --fontxs: 0.75em;
+  --fontsm: 0.875em;
+  --fontmd: 1em;
+  --font16px: 16px;
+  --fontlg: 1.25em;
+  --fontxl: 2em;
+  --fontxxl: 3em;
+  --fontxxxl: 4em;
+  --fontButton: 0.875em;
+  --navHeight: 5rem;
+  --whiteBg: #f7b272;
+  --bg: rgb(255,255,255);
+  --bgAlpha: #f2f2f2;
+  --bg2: rgb(245,245,245);
+  --bg3: #fff;
+  --primary: rgb(52, 131, 235);
+  --bg4: #eaeaea;
+  --bg5: #f76f3a;
+  --bgtotal: #EDF3FB;
+  --bgtgderecha: #eeeeee;
+  --colorToggle: #F9743B;
+  --translateToggle: -12px;
+  --logorotate: 360deg;
+  --slideroffset: 0.3em;
+  --sizeoficon: 1.4em;
+  --colorSubtitle: #2c2c2c;
+  --colorScroll: #cac9ca;
+  --bgcards: #ffffff;
+  --colortitlecard: #363637;
+  --colorsubtitlecard: #080808;
+}
+
+
+*/

@@ -1,9 +1,20 @@
+import { twMerge } from "tailwind-merge";
 import HomeLayout from "@shared/layouts/HomeLayout";
 
 export default function Home() {
   return (
     <HomeLayout>
-      <>
+      <div
+        className={twMerge(
+          "flex",
+          "justify-center",
+          "items-center",
+          "h-screen",
+          "overflow-hidden",
+          "bg-skin-fill-total",
+          "text-skin-base",
+        )}
+      >
         <div className="space-y-6 sm:m-6">
           <div className="relative mx-auto max-w-4xl overflow-hidden bg-skin-fill sm:rounded-2xl">
             <img
@@ -116,7 +127,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </>
+      </div>
     </HomeLayout>
   );
 }
