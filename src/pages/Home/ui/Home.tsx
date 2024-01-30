@@ -5,7 +5,7 @@ export default function Home() {
     <HomeLayout>
       <>
         <div className="space-y-6 sm:m-6">
-          <div className="theme-swiss relative mx-auto max-w-4xl overflow-hidden bg-skin-fill sm:rounded-2xl">
+          <div className="relative mx-auto max-w-4xl overflow-hidden bg-skin-fill sm:rounded-2xl">
             <img
               className="absolute inset-0 h-full w-full object-cover opacity-30"
               src="https://images.unsplash.com/photo-1613217784112-e0e197be6a0b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80&sat=-100"
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="theme-neon relative mx-auto max-w-4xl overflow-hidden bg-skin-fill sm:rounded-2xl">
+          <div className="relative mx-auto max-w-4xl overflow-hidden bg-skin-fill sm:rounded-2xl">
             <img
               className="absolute inset-0 h-full w-full object-cover opacity-30"
               src="https://images.unsplash.com/photo-1613217784112-e0e197be6a0b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80&sat=-100"
